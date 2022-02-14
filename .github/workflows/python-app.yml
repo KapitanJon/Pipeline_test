@@ -34,4 +34,4 @@ jobs:
     - name: Hello World 
       run: |
         chmod +x src_folder/HelloWorld.py
-        src_folder/HelloWorld.py
+        python src_folder/HelloWorld.py
