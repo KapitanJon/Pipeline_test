@@ -31,4 +31,6 @@ jobs:
     - name: Hello World 
       run: |
         chmod +x src_folder/*.py
-        python src_folder/*.py
+        cd src_folder/
+        for f in *.py; do python "$f"; done
+
