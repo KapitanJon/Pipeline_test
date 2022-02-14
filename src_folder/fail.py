@@ -1,2 +1,2 @@
 """made to fail"""
-print("fail)
+print("fail")
