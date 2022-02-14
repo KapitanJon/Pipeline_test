@@ -1,2 +1,2 @@
-#! python venv/bin/usr
+venv/bin/python
 print("Hello World")
