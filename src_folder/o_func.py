@@ -1,6 +1,6 @@
 """Outputs the sum of two ranges"""
 def func_A():
-"""Asks for range input"""
+    """Asks for range input"""
     a = int(input("Enter the lower limit: "))
     b = int(input("Enter the upper limit: "))        
     total = 0
