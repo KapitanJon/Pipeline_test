@@ -11,7 +11,7 @@ func_a()
 def func_b():
     """Asks for exit"""
     f_var = int(input("Enter a number or 'finish' to stop:"))
-    while f:
+    while f_var:
         print("The square of the entered number is", f**2)
         f_var = input("Enter a number or 'finish' to stop:")
 func_b()
